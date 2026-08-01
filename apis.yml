@@ -1,8 +1,23 @@
 aid: sunrise
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sunrise.png
 name: Sunrise
-description: Sunrise is a company surfaced as a portfolio company of seedcamp, slow-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Sunrise Robotics builds intelligent, two-armed autonomous robotic cells for manufacturing.
+  The AI-driven system combines built-in perception and environmental awareness with autonomous execution
+  to transform existing production processes, increase capacity, and free human workers for higher-value
+  tasks. Cells deploy quickly (needing only a three-phase outlet), are flexible across manufacturing
+  applications, and are built to ISO 10218 / TS 15066 safety standards. The company is backed by Seedcamp
+  and Slow Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/sunrise/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Robotics
+- Manufacturing
+- Automation
+- Artificial Intelligence
+- Industrial
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +44,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sunrise-domain-security.yml
 - type: Website
-  url: http://sunriserobotics.co
+  url: https://sunriserobotics.co
+- type: PrivacyPolicy
+  url: https://sunriserobotics.co/privacy-legal
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
